@@ -33,7 +33,7 @@ try:
 
         # Bước 4: Tạo format output đúng yêu cầu
         now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        line = (f'[{now}] CPU: {cpu_avg:.1f}% | RAM: {ram_used_mb}/{ram_total_mb} MB '
+	line = (f'[{now}] CPU: {cpu_avg:.1f}% | RAM: {ram_used_mb}/{ram_total_mb} MB '
         f'({ram_pct}%) | Disk: {disk_pct}% | {status}')
 
 
